@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Time Machine</title>
+		<style>
+
+@import url("sp://resources/css/api.css");
+@import url("sp://resources/css/eve.css");
+@import url("sp://resources/css/shared.css");
+@import url("$views/css/tabbar.css");
+@import url("$views/css/list.css");
+@import url("$views/css/image.css");
+</style>
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+		<script src="assets/scripts/timemachine.js" type="text/JavaScript">
+		</script>
+	</head>
+	<body>
+		<header></header>
+		<main>
+			<section id="main">
+				<article>
+					<table cellspacing="12" width="100%">
+						<tr>
+							<td width="25%" valign="top">
+								<h1>Top tracks</h1>
+								<div id="toplist"></div>
+							</td>
+							<td valign="top">
+								<h1 id="yeartext">Information</h1>
+								<p id="biography">@{bio}</p>
+								<small>From Wikipedia</small>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<h3>Albums of the day</h3>
+								<ul id="albums">
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</article>
+				<article>
+					<h1>Artists</h1>
+					<ul id="artists"></ul>
+					</td>
+				</article>
+			
+			</section>
+			<section id="tracks">
+				<div id="tracklist">
+				</div>
+			</section>
+		</main>	
+		<footer></footer>
+</html>

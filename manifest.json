@@ -1,0 +1,46 @@
+{
+	"BundleType":"Application",
+	"Dependencies": {
+	      "api": "1.10.2",
+	      "views": "1.18.1"
+    },
+	"BundleVersion": "1.0.0",
+	"AppName": {
+		"en": "Time Machine"
+	},
+	"SupportedLanguages":[
+		"en"
+	],
+	"DefaultTabs": [
+		{
+			"title":{
+				"en":"Overview"
+
+			},
+			"arguments":"overview"
+		},
+		{
+			"title":{
+				"en":"Albums"
+
+			},
+			"arguments":"albums"
+		},
+		{
+			"title":{
+				"en":"Tracks"
+
+			},
+			"arguments":"tracks"
+		}
+	],
+	"AppDescription": {
+		"en": "Time Machine"
+	},
+	"BundleIdentifier": "timemachine",
+	"VendorIdentifier": "com.krikelin",
+	"RequiredPermissions": [
+		"http://en.wikipedia.org",
+		"http://www.musicbrainz.org/"
+	]
+}
